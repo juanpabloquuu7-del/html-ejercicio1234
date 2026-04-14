@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  
+  .layout-wrapper {
+    width: 80%;
+    height: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+  }
+
+  
+  header {
+    height: 20%;
+    background-color: #8a2be2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #adff2f; 
+    font-weight: bold;
+  }
+
+ 
+  nav {
+    height: 8%;
+    background-color: #5f9ea0; 
+    border-radius: 10px;
+  }
+
+
+  main {
+    flex: 1; 
+    display: flex;
+    gap: 10px;
+  }
+
+  section {
+    flex: 2;
+    background-color: #7fffd4; 
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  article {
+    background-color: #b22222; 
+    flex: 1;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+
+  aside {
+    flex: 1;
+    background-color: #deb887; 
+    border-radius: 10px;
+  }
+
+  
+  footer {
+    height: 15%;
+    background-color: #556b2f; 
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="layout-wrapper">
+    <header>Ejemplo maquetacion</header>
+    
+    <nav></nav>
+
+    <main>
+      <section>
+        <article>articulo 1</article>
+        <article>articulo 2</article>
+        <article>articulo 3</article>
+        <article>articulo 4</article>
+        <article>articulo 5</article>
+      </section>
+      
+      <aside></aside>
+    </main>
+
+    <footer></footer>
+  </div>
+
+</body>
+</html>
