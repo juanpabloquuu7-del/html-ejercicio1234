@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body,html {
+        margin: 0;
+        padding: 0;
+        background-color: #000080;
+        height: 100%;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .cuerpos {
+        min-height: 200vh;
+        padding: 0;
+      }
+
+      .encebollado {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid #000040;
+      }
+
+      .atun {
+        padding: 12px 20px;
+        font-size: 18px;
+        background-color: #f0f8ff;
+        border-bottom: 1px solid #add8e6;
+        box-sizing: border-box;
+      }
+
+    
+      .atun.pegajoso {
+        background-color: #ffead0; 
+        position: sticky; 
+        
+        top: 0;
+        z-index: 100;
+        font-weight: 500;
+      }
+
+      .atun.estatico {
+        position: static;
+      }
+    </style>
+</head>
+<body>
+    <div class="cuerpos">
+      <div class="encebollado">
+        <div class="atun pegajoso">Pegajoso</div>
+        <div class="atun estatico">Estatico</div>
+        <div class="atun estatico">Estatico</div>
+        <div class="atun estatico">Estatico</div>
+        <div class="atun estatico">Estatico</div>
+      </div>
+    </div>
+</body>
+</html>
